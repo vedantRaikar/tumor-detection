@@ -1,0 +1,31 @@
+what is standardizing of the data set 
+
+
+The StandardScaler class is a popular preprocessing tool used in machine learning to standardize or scale the features of a dataset. Standardization refers to the process of transforming the features so that they have a mean of 0 and a standard deviation of 1. This is often done to improve the performance of machine learning models, especially those that are sensitive to the scale of the input features.
+
+Data standardization helps improve the quality of your data by transforming and standardizing it. Think of it like a uniform for your databases. By taking this step, you are formatting your records in a way that creates consistency across your systems and makes it easy for businesses to use
+
+
+Scaling
+This means that you're transforming your data so that it fits within a specific scale, like 0-100 or 0-1. You want to scale data when you're using methods based on measures of how far apart data points are, like support vector machines (SVM) or k-nearest neighbors (KNN). With these algorithms, a change of "1" in any numeric feature is given the same importance.
+
+For example, you might be looking at the prices of some products in both Yen and US Dollars. One US Dollar is worth about 100 Yen, but if you don't scale your prices, methods like SVM or KNN will consider a difference in price of 1 Yen as important as a difference of 1 US Dollar! This clearly doesn't fit with our intuitions of the world. With currency, you can convert between currencies. But what about if you're looking at something like height and weight? It's not entirely clear how many pounds should equal one inch (or how many kilograms should equal one meter)
+
+
+
+
+
+Logistic Regression is a “Supervised machine learning” algorithm that can be used to model the probability of a certain class or event. It is used when the data is linearly separable and the outcome is binary or dichotomous in nature.
+
+That means Logistic regression is usually used for Binary classification problems.
+
+Binary Classification refers to predicting the output variable that is discrete in two classes.
+
+A few examples of Binary classification are Yes/No, Pass/Fail, Win/Lose, Cancerous/Non-cancerous, etc.
+
+
+
+
+
+
+The sigmoid function is useful to map any predicted values of probabilities into another value between 0 and 1

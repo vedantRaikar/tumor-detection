@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tumor Detection</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\vedant raikar\Desktop\tumor-detection\static\css\styles.css">
+</head>
+
+<body>
+    <h1>Tumor Detection</h1>
+    <form action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Detect Tumor">
+    </form>
+    {% if prediction %}
+    <div class="result">
+        <h2>Prediction: {{ prediction }}</h2>
+    </div>
+    {% endif %}
+</body>
+
+</html>
